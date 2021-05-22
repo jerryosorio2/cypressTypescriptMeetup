@@ -1,0 +1,26 @@
+{
+  "name": "cypressmeetup",
+  "version": "1.0.0",
+  "description": "Cypress Meetup",
+  "main": "index.js",
+  "scripts": {
+    "headless": "cypress run",
+    "console": "cypress open"
+  },
+  "keywords": [
+    "QA",
+    "Automation",
+    "Cypress"
+  ],
+  "author": "Jerry Osorio",
+  "license": "MIT",
+  "dependencies": {
+    "cypress": "^6.8.0",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.2.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:jerryosorio2/cypressMeetup.git"
+  }
+}
